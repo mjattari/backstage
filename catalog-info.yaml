@@ -21,3 +21,15 @@ spec:
   owner: team-system-integration
   definition:
     $text: http://localhost:7007/api/kong-url-proxy/kong/specs/asw-europe-oms-orders-api-spec.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: sw-europe-standards-api-spec
+  description: API Spec from Kong at asw-europe-standards-api-spec.yaml
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-system-integration
+  definition:
+    $text: http://localhost:7007/api/kong-url-proxy/kong/specs/asw-europe-standards-api-spec.yaml
