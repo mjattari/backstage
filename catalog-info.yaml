@@ -25,7 +25,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: sw-europe-standards-api-spec
+  name: asw-europe-standards-api-spec
   description: API Spec from Kong at asw-europe-standards-api-spec.yaml
 spec:
   type: openapi
