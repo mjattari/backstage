@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: asw-europe-brands-api-spec
+  description: API Spec from Kong at asw-europe-brands-api-spec.yaml
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-system-integration
+  definition:
+    $text: http://localhost:7007/api/kong-url-proxy/kong/specs/asw-europe-brands-api-spec.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: asw-europe-oms-orders-api-spec
+  description: API Spec from Kong at asw-europe-oms-orders-api-spec.yaml
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-system-integration
+  definition:
+    $text: http://localhost:7007/api/kong-url-proxy/kong/specs/asw-europe-oms-orders-api-spec.yaml
