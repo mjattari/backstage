@@ -26,7 +26,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: asw-europe-standards-api-test-spec
-  description: API Spec from Kong at asw-europe-standards-api-spec.yaml
+  description: API TEST Spec from Kong at asw-europe-standards-api-spec.yaml
 spec:
   type: openapi
   lifecycle: production
