@@ -45,3 +45,15 @@ spec:
   owner: team-system-integration
   definition:
     $text: http://localhost:7007/api/kong-url-proxy/kong/specs/asw-europe-webservices-product-api-spec.yaml
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: asw-internal-stocks-api-spec
+  description: API Spec from Kong at asw-internal-stocks-api-spec.yaml
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-system-integration
+  definition:
+    $text: http://localhost:7007/api/kong-url-proxy/kong/specs/asw-internal-stocks-api-spec.yaml
